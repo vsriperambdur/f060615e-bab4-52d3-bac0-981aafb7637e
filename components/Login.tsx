@@ -4,7 +4,7 @@ const Login = () => {
   const handleAccept = () => {
     // Redirect to OIDC provider with client id in the token
     const clientId = 'SkmbBYHx6u3weWspiPHg1Gl54nT6oZcY';
-    const redirectUri = `https://oidc-provider.com/auth?client_id=${clientId}`;
+    const redirectUri = `https://https://manage.auth0.com/dashboard/us/dev-ojzt6m1whze6fdtc//auth?client_id=${clientId}`;
     window.location.href = redirectUri;
   };
 
@@ -17,9 +17,7 @@ const Login = () => {
       <div className="p-8 bg-white rounded shadow-md">
         <h2 className="text-2xl font-bold mb-4">BluegrassID Agreement</h2>
         <p className="mb-4">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-          tincidunt, nunc ac varius aliquet, ipsum orci luctus ex, non
-          pellentesque velit massa sit amet ex.
+          Please accept or decline the agreement.
         </p>
         <div className="flex justify-between">
           <button
